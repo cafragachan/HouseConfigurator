@@ -1,10 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "zAgRoof.h"
+#include "uAgRoof.h"
 
 // Sets default values
-AzAgRoof::AzAgRoof()
+AuAgRoof::AuAgRoof()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -12,14 +12,14 @@ AzAgRoof::AzAgRoof()
 }
 
 // Called when the game starts or when spawned
-void AzAgRoof::BeginPlay()
+void AuAgRoof::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void AzAgRoof::Tick(float DeltaTime)
+void AuAgRoof::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 

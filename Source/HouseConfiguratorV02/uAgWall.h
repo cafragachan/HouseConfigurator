@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "zAggregationManager.generated.h"
+#include "uAgWall.generated.h"
 
 UCLASS()
-class HOUSECONFIGURATORV02_API AzAggregationManager : public AActor
+class HOUSECONFIGURATORV02_API AuAgWall : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AzAggregationManager();
+	AuAgWall();
 
 protected:
 	// Called when the game starts or when spawned

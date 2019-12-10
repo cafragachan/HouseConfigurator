@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "zAgFacade.generated.h"
+#include "uArchGeom.generated.h"
 
 UCLASS()
-class HOUSECONFIGURATORV02_API AzAgFacade : public AActor
+class HOUSECONFIGURATORV02_API AuArchGeom : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AzAgFacade();
+	AuArchGeom();
 
 protected:
 	// Called when the game starts or when spawned

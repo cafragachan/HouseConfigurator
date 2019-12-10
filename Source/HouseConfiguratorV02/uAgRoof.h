@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "zAgColumn.generated.h"
+#include "uAgRoof.generated.h"
 
 UCLASS()
-class HOUSECONFIGURATORV02_API AzAgColumn : public AActor
+class HOUSECONFIGURATORV02_API AuAgRoof : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AzAgColumn();
+	AuAgRoof();
 
 protected:
 	// Called when the game starts or when spawned

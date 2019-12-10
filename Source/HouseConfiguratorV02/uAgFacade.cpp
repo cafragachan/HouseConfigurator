@@ -1,10 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "zArchGeom.h"
+#include "uAgFacade.h"
 
 // Sets default values
-AzArchGeom::AzArchGeom()
+AuAgFacade::AuAgFacade()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -12,14 +12,14 @@ AzArchGeom::AzArchGeom()
 }
 
 // Called when the game starts or when spawned
-void AzArchGeom::BeginPlay()
+void AuAgFacade::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void AzArchGeom::Tick(float DeltaTime)
+void AuAgFacade::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 

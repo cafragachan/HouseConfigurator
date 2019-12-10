@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "zHcUnit.generated.h"
+#include "uAgColumn.generated.h"
 
 UCLASS()
-class HOUSECONFIGURATORV02_API AzHcUnit : public AActor
+class HOUSECONFIGURATORV02_API AuAgColumn : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AzHcUnit();
+	AuAgColumn();
 
 protected:
 	// Called when the game starts or when spawned
@@ -22,5 +22,11 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+
+
+	////
+
+	
 
 };

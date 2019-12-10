@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "zAgWall.generated.h"
+#include "uAgSlab.generated.h"
 
 UCLASS()
-class HOUSECONFIGURATORV02_API AzAgWall : public AActor
+class HOUSECONFIGURATORV02_API AuAgSlab : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AzAgWall();
+	AuAgSlab();
 
 protected:
 	// Called when the game starts or when spawned
